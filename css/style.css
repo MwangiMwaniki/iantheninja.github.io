@@ -1,4 +1,16 @@
+/*body elements*/
 body {
 	font-family: 'Oswald', sans-serif;
 	font-size: 10em;
+}
+
+/*css classes*/
+.blue-text{
+	text-align: center;
+}
+/*css id tags*/
+.bgimage{
+    background-image:url(images/bg.jpg);
+    height: 800px;  
+    width: 100%;
 }
