@@ -1,6 +1,6 @@
 /*body elements*/
 body {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Indie Flower', cursive;
 	font-size: 2em;
 }
 
@@ -29,4 +29,10 @@ body {
     height: 300px;
     width: 300px;
     border-radius: 150px;
+}
+.diffcolor{
+    color: fuchsia;
+}
+.section1 h2{
+    text-align: center;
 }
