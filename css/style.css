@@ -2,6 +2,7 @@
 body {
 	font-family: 'Indie Flower', cursive;
 	font-size: 2em;
+    background: #eeeeee;
 }
 
 /*css classes*/
@@ -11,6 +12,7 @@ body {
 	padding-bottom: 13%;
     background-image: url(images/DSC_0112.JPG);
     background-size: cover;
+    
 }
 .intro h1{
     font-weight: 900;
@@ -35,4 +37,21 @@ body {
 }
 .section1 h2{
     text-align: center;
+}
+.standard{
+    margin: 20px;
+    height: auto;
+    font-size: 18px;
+}
+.first-nav-link{
+    margin-left: 50px;
+}
+.about{
+    text-align: center;
+}
+.nav-links{
+    margin-right: 50px;
+}
+nav{
+    position: fixed;
 }
