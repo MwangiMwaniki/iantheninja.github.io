@@ -1,4 +1,5 @@
-$('.standard').addClass('animated fadeInLeft');
+$('.text').addClass('animated fadeInLeft');
+$('.first-card').addClass('animated slideInRight');
 $('.button-collapse').sideNav()
 //$(window).scroll(function(){
 //    $("nav").hide();
