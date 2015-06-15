@@ -1,4 +1,10 @@
 /*body elements*/
+html, body, .wrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: teal;
+}
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
@@ -6,16 +12,12 @@ body {
 }
 
 /*css classes*/
-.wrapper{
-    background: teal;
-    height: 100%;
-    width: 100%;
-}
 .intro{
     text-align: center;
 	padding-top: 13%;
 	padding-bottom: 13%;
     background: ;
+
 
 }
 .intro h1{
