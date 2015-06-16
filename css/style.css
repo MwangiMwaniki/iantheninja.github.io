@@ -185,7 +185,7 @@ h3, h4 {
   display: table;
   clear: both;
 }
-.cd-timeline-content h2 {
+.cd-timeline-content h3 {
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
@@ -225,7 +225,7 @@ h3, h4 {
   border-right: 7px solid white;
 }
 @media only screen and (min-width: 768px) {
-  .cd-timeline-content h2 {
+  .cd-timeline-content h3 {
     font-size: 20px;
     font-size: 1.25rem;
   }
@@ -470,7 +470,7 @@ nav{
   content: '';
   position: absolute;
   top: 0;
-  left: 18px;
+/*  left: 18px;*/
   height: 100%;
   width: 4px;
   background: #d7e4ed;
