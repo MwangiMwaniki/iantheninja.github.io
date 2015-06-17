@@ -158,21 +158,27 @@
            
             </div>
             <footer class="page-footer teal">
-                 <div class="form container" id="contact">
+                 <div class="left form col l6 s12 teal" id="contact">
                 <form class="col s12">
                 <div class="row">
                     
-                    <div class="input-field col s12">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">Email Address</label>
+                    <div class="input-field col s6">
+                        <i class="mdi-action-account-circle prefix white-text"></i>
+                        <input id="first_name" type="text" class="validate white-text">
+                        <label for="first_name" class="white-text">Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="mdi-communication-email prefix white-text"></i>
+                        <input id="icon-email" type="email" class="validate white-text">
+                        <label for="icon-email" class="white-text">Email Address</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="last_name" type="text" class="validate">
+                        <input id="last_name" type="text" class="validate white-text">
                         <label for="last_name">Body</label>
                     </div>
                     <div class="input-field col s12">
                         <text-area id="body" type="text" class="materialize-textarea"></text-area>
-                        <label for="body">Body</label>
+                        <label for="body" class="white-text">Body</label>
                     </div>
                     <button class="btn waves-effect waves-light" type="submit" name="action">Submit
                         <i class="mdi-content-send right"></i>
@@ -180,9 +186,12 @@
                 </div>
                 </form>
             </div>
+                <div class="right col l6 s12 teal">
+<!--        blog link goes here in anoter div            -->
                 <div class="footer-copyright">
                     <div class="container">
                         © 2015 Ian Munene
+                    </div>
                 </div>
                 </div>
             </footer>
