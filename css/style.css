@@ -185,7 +185,7 @@ h3, h4 {
   display: table;
   clear: both;
 }
-.cd-timeline-content h3 {
+.cd-timeline-content h3, cd-timeline-content h2 {
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
@@ -228,6 +228,10 @@ h3, h4 {
   .cd-timeline-content h3 {
     font-size: 20px;
     font-size: 1.25rem;
+  }
+  .cd-timeline-content h2 {
+    font-size: 24px;
+    font-size: 1.50rem;
   }
   .cd-timeline-content p {
     font-size: 16px;
