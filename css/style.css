@@ -450,6 +450,9 @@ nav{
 .center{
     text-align: center;
 }
+.form{
+    padding: 10px;
+}
 .git{
     display: block;
     margin-right: auto;
@@ -471,7 +474,7 @@ nav{
   position: absolute;
   top: 0;
 /*  left: 18px;*/
-  height: 100%;
+  height: 80%;
   width: 4px;
   background: #d7e4ed;
 }
