@@ -28,6 +28,9 @@ h3, h4 {
 }
 
 /*css classes*/
+.text{
+    font-size: 3em;
+}
 .wrapper{
     background: teal;
 }
