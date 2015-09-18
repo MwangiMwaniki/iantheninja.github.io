@@ -11,7 +11,7 @@ body {
     background-color: #e9f0f5;
 }
 nav li{
-    font-family: "Droid Serif", serif; 
+    font-family: "Droid Serif", serif;
 }
 a {
   color: #acb7c0;
@@ -180,6 +180,7 @@ h3, h4 {
 }
 .cd-timeline-content {
   position: relative;
+  /*white-space: nowrap;*/
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
@@ -558,9 +559,9 @@ nav{
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
-xrotate-1 
+xrotate-1
 
 -------------------------------- */
 .cd-headline.rotate-1 .cd-words-wrapper {
