@@ -7,32 +7,14 @@ html, body, .wrapper{
 body {
 	font-family: "Droid Serif", serif;
 	font-size: 2em;
-    color: #7f8c97;
-    background-color: #e9f0f5;
 }
 nav li{
     font-family: "Droid Serif", serif;
 }
 /*css classes*/
 .wrapper{
-    background: teal;
+    background-image: url();
 }
-.mobile{
-    display: none;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    button{
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        border: 0;
-        text-indent: 200%;
 
-    }
-
-}
-.desktop{
-}
 
 /*css ids*/
