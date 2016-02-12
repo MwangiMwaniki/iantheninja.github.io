@@ -10,7 +10,7 @@ body {
 }
 nav li{
     display: block;
-    padding: 10px 20px;
+    margin-right: 55px;
     float: right;
     line-height: 100px;
 }
@@ -22,12 +22,15 @@ nav a :hover{
 }
 /*css classes*/
 .wrapper{
-  border: 1px solid red;
   margin-top: 0;
 }
 .social{
   color: #FFFFFF;
   line-height: 30px;
+}
+.social li{
+  display: inline;
+  margin-right: 20px;
 }
 
 /*css ids*/
@@ -37,6 +40,7 @@ nav a :hover{
 }
 #phoneno{
   color: #FFFFFF;
+  padding-left: 50px;
 }
 #phone{
   line-height: 30px;
