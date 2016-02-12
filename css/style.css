@@ -3,17 +3,27 @@ html, body, .wrapper{
     height: 100%;
     width: 100%;
     margin: 0;
+
 }
 body {
-	font-family: "Droid Serif", serif;
 	font-size: 2em;
 }
 nav li{
-    font-family: "Droid Serif", serif;
+    display: block;
+    padding: 10px 20px;
+    float: right;
+    line-height: 100px;
+}
+nav a{
+  color: #FFFFFF;
+}
+nav a :hover{
+  text-decoration: none;
 }
 /*css classes*/
 .wrapper{
-    background-image: url();
+  border: 1px solid red;
+  margin-top: 0;
 }
 .social{
   color: #FFFFFF;
@@ -22,16 +32,16 @@ nav li{
 
 /*css ids*/
 #contactinfor{
-  background-color: #7B1FA2;
+  background-color: #00796B;
   height: 30px;
 }
 #phoneno{
   color: #FFFFFF;
 }
-#nav{
-  height: 100px;
-  background-color: #9C27B0;
-}
 #phone{
   line-height: 30px;
+}
+#nav{
+  height: 100px;
+  background-color: #009688;
 }
